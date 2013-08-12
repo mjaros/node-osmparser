@@ -1,0 +1,22 @@
+{
+  "name": "osmparser",
+  "description": "OpenStreetMap XML and PBF parser for Node.JS",
+  "version": "0.0.0",
+  "author": "Matthias Jaros <mjaros@mjaros.com>",
+  "main": "index.js",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/mjaros/node-osmparser.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/mjaros/node-osmparser/issues"
+  },
+  "dependencies": {
+    "node-expat": "2.0.x",
+    "leveldown": "0.6.x",
+    "levelup": "0.12.x"
+  },
+  "devDependencies": {
+
+  }
+}
