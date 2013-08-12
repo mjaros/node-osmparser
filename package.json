@@ -3,7 +3,7 @@
   "description": "OpenStreetMap XML and PBF parser for Node.JS",
   "version": "0.0.0",
   "author": "Matthias Jaros <mjaros@mjaros.com>",
-  "main": "index.js",
+  "main": "./lib/node-osmparser.js",
   "repository" : {
     "type": "git",
     "url": "https://github.com/mjaros/node-osmparser.git"
