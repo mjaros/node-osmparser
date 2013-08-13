@@ -1,7 +1,7 @@
 {
   "name": "osmparser",
   "description": "OpenStreetMap XML and PBF parser for Node.JS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Matthias Jaros <mjaros@mjaros.com>",
   "main": "./lib/node-osmparser.js",
   "repository" : {
