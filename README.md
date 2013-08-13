@@ -30,6 +30,10 @@ parser.on('error', function(err) {
   console.error(err);
 });
 
+parser.on('end', function(err) {
+  console.log('done!');
+});
+
 parser.parse('/path/to/file.osm');
 ```
 
@@ -55,6 +59,10 @@ parser.on('relation', function(data) {
 
 parser.on('error', function(err) {
   console.error(err);
+});
+
+parser.on('end', function(err) {
+  console.log('done!');
 });
 
 parser.filterNode = function(node, callback) {
