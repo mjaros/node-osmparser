@@ -75,7 +75,7 @@ parser.filterWay = function(way, callback) {
 }
 
 parser.filterRelation = function(relation, callback) {
-  if (node.tags['water']) callback(null, node);
+  if (node.tags['water']) callback(null, relation);
   else callback(null, null);
 }
 
